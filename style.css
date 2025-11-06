@@ -1,0 +1,106 @@
+
+body{
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(21, 20, 20),rgb(248, 157, 29));
+}
+#seachform {
+    margin-bottom: 20px;
+   
+}
+.card{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("https://imgs.search.brave.com/KfDffYhekW1LDjUx2JBs0mszokqeW3jiDF5q71Ku1qE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDYv/ODMxLzE4MC9zbWFs/bC9pbGx1bWluYXRl/ZC1ibHVlLXN0b25l/LXdhbGwtdGV4dHVy/ZS13aXRoLXdhcm0t/Z2xvd2luZy1saWdo/dHMtYmFja2dyb3Vu/ZC1mcmVlLXBob3Rv/LmpwZw");
+    background-size: contain;
+}
+ h1{
+    padding-top: 20px;
+    color: rgb(241, 241, 241);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input{
+    height:50px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 10px;
+    background-color: rgba(9, 55, 112, 0.447);
+    color: rgb(245, 233, 233);
+    font-size: 17px;
+    font-family: sans-serif;
+    border: 1px solid white;
+}
+.button1{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(214, 85, 85);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.button2{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(214, 85, 85);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.button:hover{
+    cursor: pointer;
+}
+#result{
+ width: 80%;
+ margin: 20px;
+ display: flex;
+ flex-direction: row;
+ row-gap: 10px;
+ flex-wrap: wrap;
+
+}
+.button2{
+     align-self: flex-end;
+     background-color: blue;
+     display: none;
+     cursor: pointer;
+}
+.imageEl{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px;
+transition: transform 0.4s ease-in-out;
+}
+.imageEl:hover{
+    transform: scale(1.1);  /* makes it 10% bigger on hover */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+   
+}
+.morebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+@media screen  and (max-width:768px){
+    .input{
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+.imageEl{
+    width:100px;
+    height: 100px;
+   
+}
+}
