@@ -36,7 +36,7 @@ A simple and interactive **Image Search Engine** built with **HTML, CSS, and Jav
 
 > Add a screenshot or GIF here showing how your app looks.  
 > Example:  
-> ![App Screenshot](./screenshot.png)
+> ![App Screenshot](./Screenshot 2025-11-06 183808.png)
 
 ---
 
