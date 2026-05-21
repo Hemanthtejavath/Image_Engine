@@ -2,6 +2,8 @@
 
 A simple and interactive **Image Search Engine** built with **HTML, CSS, and JavaScript** that fetches images from a free image API and displays them dynamically on the webpage.
 
+"sample git branching"
+
 ---
 
 ## 🚀 Features
@@ -16,19 +18,19 @@ A simple and interactive **Image Search Engine** built with **HTML, CSS, and Jav
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – structure  
-- **CSS3** – styling & hover effects  
-- **JavaScript (ES6)** – API fetching & DOM manipulation  
-- **API Used:** [Unsplash API](https://unsplash.com/developers) *(or any free image API you’ve used)*
+- **HTML5** – structure
+- **CSS3** – styling & hover effects
+- **JavaScript (ES6)** – API fetching & DOM manipulation
+- **API Used:** [Unsplash API](https://unsplash.com/developers) _(or any free image API you’ve used)_
 
 ---
 
 ## ⚙️ How It Works
 
-1. User enters a keyword in the search box.  
-2. JavaScript sends a request to the image API.  
-3. The API returns JSON data with image URLs.  
-4. The images are displayed dynamically on the page.  
+1. User enters a keyword in the search box.
+2. JavaScript sends a request to the image API.
+3. The API returns JSON data with image URLs.
+4. The images are displayed dynamically on the page.
 
 ---
 
@@ -44,7 +46,10 @@ A simple and interactive **Image Search Engine** built with **HTML, CSS, and Jav
 
 ```js
 async function searchImages(query) {
-  const response = await fetch(`https://api.unsplash.com/search/photos?query=${query}&client_id=YOUR_ACCESS_KEY`);
+  const response = await fetch(
+    `https://api.unsplash.com/search/photos?query=${query}&client_id=YOUR_ACCESS_KEY`,
+  );
   const data = await response.json();
   displayImages(data.results);
 }
+```
